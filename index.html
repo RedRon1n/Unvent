@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">  <!-- Данный тег используется для адаптации сайта на мобилки и планшеты -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cardo:ital@1&family=Open+Sans:wght@700&family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="img/Favicon.png" type="image/png">
+
+    <meta name="description" content="Описание страницы">
+    <meta name="robots" content="nofollow">  <!-- запрещает роботу Googlebot переходить по ссылкам с этой сраницы -->
+    <meta name="google" content="notranslate"> <!-- Запрещает перевод нашей страницы -->
+    <meta name="keywords" content="создание сайтов, верстка сайтов">  <!-- ключевые слова для поиска сайта -->
+
+    <title>Unvent</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+     </head>
+<body>
+    <!-- Header Шапка -->
+   <header class="header" id="header">
+<div class="Container"> 
+<div class="header__inner">
+    <div class="header__logo">
+        <img  src="img/UnventLogo.png" alt="">
+    </div>
+    <div class="header__info">
+       <p> <b>Проффесиональный монтаж дымоходов</b> любой сложности на территории Киева и Киевской обл.</p>
+    </div>
+    <div class="header__map"> 
+     <a href="#openModal"> <img src="img/map.png"> </a>
+    </div>
+    <div class="header__map__info">
+        <p href="#openModal"> <b> Украина, Киев, </b> Васильковская 30 </p>
+    </div>
+    <div class="flare-buttons" data-toggle="modal" data-target="#examplemodal" >
+        <button class="flare-button">Консультация с инженером</button>
+      </div>
+        <div class="fm-phone-box d-flex align-items-center">
+          <div class="fm-phone-img">
+            <i class="fas fa-mobile-alt"></i>
+          </div>
+          <div class="header__social">
+              <div class="header__align__center">
+                  <div class="header__content">
+                    <a class="header__btn">
+                        <img class="header__phone" src="img/phone.png">
+                        <span> +38 067 242-58-78 </span>
+                    </a> 
+                      <div class="header__socila__item">
+                          <a class="header__icon" rel="nofollow" href="#">
+                              <img src="img/social_logo/viber.png" alt="">
+                          </a>
+                          <a class="header__icon" rel="nofollow" href="#">
+                            <img src="img/social_logo/telegram.png" alt="">
+                        </a>
+                        <a class="header__icon" rel="nofollow" href="#">
+                            <img src="img/social_logo/whatsapp.png" alt="">
+                        </a>
+                      </div> 
+                  </div>
+              </div>
+          </div>
+        </div>
+    </div>
+    </div>
+   </header> 
+   
+   <!-- Nav -->
+<div class="nav__inner" id="nav__inner">
+   <div class="Container">
+       <nav class="nav" id="nav">
+        <a class="nav__link" href="#" data-scroll="#">Калькулятор</a>  
+        <a class="nav__link" href="#" data-scroll="#">Услуги</a>
+        <a class="nav__link" href="#" data-scroll="#">новости</a>
+        <a class="nav__link" href="#" data-scroll="#">Отзывы</a> 
+        <a class="nav__link" href="#" data-scroll="#">Консультация</a>
+        <a class="nav__link" href="#" data-scroll="#">Приемущества</a>
+        <a class="nav__link" href="#" data-scroll="#d">Производство</a>
+        <a class="nav__link" href="#" data-scroll="#">Вопросы</a>
+        <a class="nav__link" href="#" data-scroll="#">Контакты</a>
+       </nav>
+
+        <button class="burger" type="button" id="navToggle">
+          <span class="burger__item"> Menu </span>
+      </button>
+
+ </div>
+   </div>
+<!-- Intro -->
+<div class="intro" id="intro">
+    <div class="container">
+        <div class="intro__inner">
+        <p class="intro__title"> <b> Монтаж дымоходов из нержавеющей стали </b> для частных домов и предприятий </p1>
+            <div class="intro__info">
+                    <img class="intro__img" src="img/intoimg.png">
+        <h2 class="intro__subtitle"> <b> 15 лет устанавливаем <br> дымоходы </b> для частных <br> лиц и предприятий</h2>
+        <img class="intro__img" src="img/intoimg.png">
+        <h3 class="intro__subtitle"> <b> Бесплатный выезд <br> инженера </b> в пределах<br> 30 км. от Киева</h3>
+        <img class="intro__img" src="img/intoimg.png">
+        <h4 class="intro__subtitle"><b>Монтаж под ключ от<br> 1 дня</b>, в наличии все<br> разрешительные документ</h4>
+    </div>
+    </div>
+    </div> 
+</div>
+
+<!-- inro work price -->
+<div class="intro__work">
+    <div class="container">
+        <div class="itro__work__info">
+            <img class="intro__white__form" src="img/whiteform.png">
+            <p class="intro__paragraph">  Рассчитать стоимость монтажа вашего дымохода за 1 минуту и <b>получите скидку 15%</b></p>
+        </div>
+            <div class="intro__buttons">
+                <button class="intro__button"> <img src="img/introcalculator.png"> Рассчитать стоимость монтажа и получить скидку 15%</button>
+                <div class="intro__licension"> <h4>Лицензии и сертификаты</h4> </div>
+              </div>
+        <div class="intro__achievements">
+            <div class="intro__achievements__img">
+                <div class="container">
+                <img class="img__arrows" src="img/Arrows.png" href="#" alt="">
+                <a href="#openModall"><img class="img__intro" src="img/intro__achievements.png" alt="" id="myImg"> </a>
+                <a href="#openModall"><img class="img__intro" src="img/intro__achievements.png" alt="" id="myImg"> </a>
+                <a href="#openModall"><img class="img__intro" src="img/intro__achievements.png" alt="" id="myImg"> </a>
+                <img class="img__arrows__right" src="img/Arrows2.png" href="#" alt="">
+                <div id="openModal" class="modal">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h3 class="modal-title">Google Map</h3>
+                          <a href="#close" title="Close" class="close">×</a>
+                        </div>
+                        <div class="modal-body">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2543.5146036643896!2d30.48714771593953!3d50.394246499293665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4c8dabad34735%3A0x9caae878405a6eec!2z0YPQuy4g0JLQsNGB0LjQu9GM0LrQvtCy0YHQutCw0Y8sIDMwLCDQmtC40LXQsiwg0KPQutGA0LDQuNC90LAsIDAyMDAw!5e0!3m2!1sru!2sus!4v1644130868650!5m2!1sru!2sus" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- popup -->
+<div class="container">
+  <div id="openModal" class="modal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title">Google Map</h3>
+          <a href="#close" title="Close" class="close">×</a>
+        </div>
+        <div class="modal-body">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2543.5146036643896!2d30.48714771593953!3d50.394246499293665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4c8dabad34735%3A0x9caae878405a6eec!2z0YPQuy4g0JLQsNGB0LjQu9GM0LrQvtCy0YHQutCw0Y8sIDMwLCDQmtC40LXQsiwg0KPQutGA0LDQuNC90LAsIDAyMDAw!5e0!3m2!1sru!2sus!4v1644130868650!5m2!1sru!2sus" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+<div id="openModall" class="modall">
+  <div class="modall-dialog">
+    <div class="modall-content">
+      <div class="modall-header">
+        <h3 class="modall-title">Certificate</h3>
+        <a href="#closee" title="Close" class="closee">×</a>
+      </div>
+      <div class="modall-body">
+          <img src="img/sertificate.png">
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+    
+<!-- JavaScript -->
+<script src="script.js"></script>
+
+</body>
+</html>
